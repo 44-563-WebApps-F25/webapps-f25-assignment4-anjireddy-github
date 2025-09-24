@@ -31,6 +31,17 @@
     font-size: 18px;
     color: black;
     font-weight: bold;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.name:hover {
+    text-shadow: 3px 3px 8px #FF69B4, -2px -2px 6px #9932CC, 0 0 15px #FFD700;
+    border: 2px solid #4B0082;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(75, 0, 130, 0.4);
 }
 
 
