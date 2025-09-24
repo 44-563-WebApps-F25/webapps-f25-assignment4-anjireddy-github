@@ -178,3 +178,96 @@
     font-weight: bold;
     color: #228B22;
 }
+
+/* Body padding for fixed navbar */
+body {
+    padding-bottom: 70px; /* Space for navbar */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #4B0082;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #FFD700;
+    color: #4B0082;
+}
+
+.navbar a.active {
+    background-color: #9932CC;
+    color: white;
+}
+
+/* Icon styles */
+.fas {
+    margin-right: 8px;
+}
+
+h1 .fas {
+    color: #FF69B4;
+}
+
+h2 .fas {
+    color: #FFD700;
+}
+
+h3 .fas {
+    color: #228B22;
+}
+
+/* Image styles */
+.hero-image {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #4B0082;
+    box-shadow: 0 4px 12px rgba(75, 0, 130, 0.3);
+}
+
+.section-image {
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.character-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 2px solid #9932CC;
+    box-shadow: 0 3px 8px rgba(153, 50, 204, 0.2);
+}
+
+.image-caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 8px;
+    font-size: 14px;
+}
