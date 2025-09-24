@@ -1,0 +1,109 @@
+
+.speech {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+.song {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+
+.direction {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.direction:hover {
+    background-color: #d0d0d0;
+    color: #333;
+}
+
+.name {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.leila {
+    color: #8B4513;
+}
+
+.queen {
+    color: #4B0082; 
+}
+
+.fleta {
+    color: #228B22; 
+}
+
+.celia {
+    color: #DC143C;
+}
+
+.fairies {
+    color: #FF69B4; 
+}
+
+.chorus {
+    color: #2F4F4F; 
+}
+
+.ensemble {
+    color: #8A2BE2; 
+}
+
+
+.speech-text {
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.song-text {
+    line-height: 1.8;
+    margin: 15px 0;
+    text-indent: 20px;
+    font-style: italic;
+}
+
+.recitative {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    color: black;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.aria {
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+    color: black;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.duet {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+.madrigal {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    margin-left: 35px;
+}
